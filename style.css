@@ -131,3 +131,59 @@ footer {
   padding: 24px 0;
   color: var(--off-white);
 }
+
+@media screen and (max-width: 500px) {
+
+  main > section, main > article {
+    margin: 0;
+    padding: 20px;
+    box-shadow: 4px 4px 10px var(--gray);
+    background-color: var(--white);
+    width: fit-content;
+    text-align: center;
+    font-size: 18px;
+    line-height: 15px;
+  }
+
+  .hero {
+    position:sticky;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+    margin-left: 0;
+  }
+
+  nav > a:not(:first-of-type){
+    margin-left: 0px;
+  }
+
+  .logo {
+    padding-bottom: 10px;
+  }
+
+  main > article img {
+    float:none;
+    display: block;
+    max-width: 500px;
+    margin: auto;
+    align-items: center;
+  }
+
+  nav > a.logo {
+    margin-right: 0;
+  }
+
+  section.hero > .call-to-action {
+  font-size: 1.75rem;
+  font-weight: 600;
+  text-shadow: var(--white) 0px 0px 4px, var(--white) 0px 0px 20px, var(--gray) 1px 1px 1px;
+  padding: 0 35px;
+  margin: 0;
+}
+
+}
+
+
