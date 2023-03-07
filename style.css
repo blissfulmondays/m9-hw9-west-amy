@@ -145,9 +145,7 @@ footer {
     line-height: 15px;
   }
 
-  .hero {
-    position:sticky;
-  }
+
 
   nav {
     flex-direction: column;
